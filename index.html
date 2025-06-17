@@ -1,1 +1,150 @@
-个人网站首页！！！
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>王小鱼 - 个人简历</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav id="navbar">
+        <div class="container">
+            <ul>
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#experience">专业经历</a></li>
+                <li><a href="#skills">技能</a></li>
+                <li><a href="#projects">项目展示</a></li>
+                <li><a href="#education">教育背景</a></li>
+                <li><a href="#contact">联系方式</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 首屏展示 -->
+    <section id="home" class="home">
+        <div class="container">
+            <h1>王小鱼</h1>
+            <h2>大模型应用开发专家 | 高级算法讲师</h2>
+            <p>专注于大模型应用开发与算法教学，致力于推动AI技术在工业级场景的落地与创新。</p>
+        </div>
+    </section>
+
+    <!-- 关于我 -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>关于我</h2>
+            <p>王小鱼，拥有多年大模型应用开发与算法教学经验，曾任职于北大青鸟、苏宁易购等知名企业，具备深厚的技术背景与丰富的项目经验。擅长将前沿技术转化为实际业务价值，同时注重知识传播与团队协作。</p>
+        </div>
+    </section>
+
+    <!-- 专业经历 -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2>专业经历</h2>
+            <div class="experience-item">
+                <h3>北大青鸟 | 大模型应用开发高级讲师（2021-至今）</h3>
+                <ul>
+                    <li>主导开发《工业级大模型部署实战》课程体系，累计培养AI工程师500+人，学员平均就业薪资提升35%。</li>
+                    <li>设计企业级教学沙箱平台，支持200+并发模型训练，提升60%教学资源利用率。</li>
+                    <li>联合清华智谱团队构建产业级案例库，沉淀32个行业解决方案（金融/医疗/零售）。</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>苏宁易购 | 算法工程师（2015-2021）</h3>
+                <div class="sub-experience">
+                    <h4>商品推荐系统升级（2015-2018）</h4>
+                    <ul>
+                        <li>实现Transformer在电商推荐的首次落地，通过多模态特征融合提升CTR 15.2%。</li>
+                        <li>设计动态负采样算法，带动长尾商品年GMV增长2.3亿元。</li>
+                        <li>构建PyTorch+Triton推理框架，模型响应时间降低45%（120ms → 65ms）。</li>
+                    </ul>
+                </div>
+                <div class="sub-experience">
+                    <h4>智能客服系统开发（2019-2021）</h4>
+                    <ul>
+                        <li>开发知识增强型对话模型，问题解决率提升至82%，节省30%客服人力成本。</li>
+                        <li>搭建主动学习系统，月均自动采集3000+高质量训练样本。</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 技能 -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>技能</h2>
+            <div class="skills-section">
+                <h3>硬技能</h3>
+                <ul>
+                    <li>大模型：Transformer/GPT架构调优，LoRA/P-tuning微调，模型压缩技术</li>
+                    <li>工程化：TorchServe/Triton部署，K8s+Docker全链路管理，CI/CD流水线设计</li>
+                    <li>全栈开发：Python/Go分布式系统开发，AWS/GCP云原生架构</li>
+                </ul>
+            </div>
+            <div class="skills-section">
+                <h3>软技能</h3>
+                <ul>
+                    <li>技术转化：3项顶会论文（ACL/ICML）落地业务场景经验</li>
+                    <li>知识传播：200+小时企业内训经验，学员满意度4.8/5.0</li>
+                    <li>团队管理：5-10人技术团队敏捷开发管理</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 项目展示 -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>项目展示</h2>
+            <div class="project-item">
+                <h3>企业级教学沙箱平台</h3>
+                <p>设计并实现企业级教学沙箱平台，支持200+并发模型训练，显著提升教学资源利用率。</p>
+            </div>
+            <div class="project-item">
+                <h3>Transformer在电商推荐的首次落地</h3>
+                <p>通过多模态特征融合，实现Transformer在电商推荐的首次落地，提升CTR 15.2%。</p>
+            </div>
+            <div class="project-item">
+                <h3>知识增强型对话模型</h3>
+                <p>开发知识增强型对话模型，问题解决率提升至82%，节省30%客服人力成本。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 教育背景 -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2>教育背景</h2>
+            <div class="education-item">
+                <h3>河南理工大学 | 数学与应用数学 学士（2011-2015）</h3>
+                <ul>
+                    <li>核心课程：数值分析（94）、概率统计（91）、优化理论</li>
+                    <li>数学建模竞赛省级二等奖</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系方式 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>联系方式</h2>
+            <p>电话：(+86)123-4567-8910</p>
+            <p>邮箱：wangxiaoyu517@126.com</p>
+            <p>技术博客：<a href="https://wangxiaoyu-ai.github.io" target="_blank">wangxiaoyu-ai.github.io</a></p>
+            <p>GitHub：<a href="https://github.com/wangxiaoyu-ai" target="_blank">github.com/wangxiaoyu-ai</a></p>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 王小鱼. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

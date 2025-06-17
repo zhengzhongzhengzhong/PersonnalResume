@@ -1,0 +1,304 @@
+/* styles.css */
+body {
+    font-family: "微软雅黑", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f8f8f8;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* 导航栏 */
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #a23838;
+    z-index: 1000;
+}
+
+#navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#navbar li {
+    margin: 0 15px;
+}
+
+#navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "楷体", serif;
+    transition: color 0.3s;
+}
+
+#navbar a:hover {
+    color: #bc7359;
+}
+
+/* 首屏展示 */
+.home {
+    background-color: #a23838;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.home h1 {
+    font-size: 48px;
+    font-family: "楷体", serif;
+}
+
+.home h2 {
+    font-size: 28px;
+    font-family: "楷体", serif;
+}
+
+.home p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* 关于我 */
+.about {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.about h2 {
+    font-size: 28px;
+    font-family: "楷体", serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* 专业经历 */
+.experience {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.experience h2 {
+    font-size: 28px;
+    font-family: "楷体", serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.experience-item {
+    margin-bottom: 30px;
+}
+
+.experience-item h3 {
+    font-size: 20px;
+    font-family: "楷体", serif;
+    margin-bottom: 10px;
+}
+
+.experience-item ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.experience-item ul li {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.sub-experience {
+    margin-left: 20px;
+}
+
+.sub-experience h4 {
+    font-size: 18px;
+    font-family: "楷体", serif;
+    margin-bottom: 10px;
+}
+
+/* 技能 */
+.skills {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.skills h2 {
+    font-size: 28px;
+    font-family: "楷体", serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.skills-section {
+    margin-bottom: 30px;
+}
+
+.skills-section h3 {
+    font-size: 20px;
+    font-family: "楷体", serif;
+    margin-bottom: 10px;
+}
+
+.skills-section ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.skills-section ul li {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* 项目展示 */
+.projects {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.projects h2 {
+    font-size: 28px;
+    font-family: "楷体", serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project-item {
+    margin-bottom: 30px;
+}
+
+.project-item h3 {
+    font-size: 20px;
+    font-family: "楷体", serif;
+    margin-bottom: 10px;
+}
+
+.project-item p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* 教育背景 */
+.education {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.education h2 {
+    font-size: 28px;
+    font-family: "楷体", serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.education-item {
+    margin-bottom: 30px;
+}
+
+.education-item h3 {
+    font-size: 20px;
+    font-family: "楷体", serif;
+    margin-bottom: 10px;
+}
+
+.education-item ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.education-item ul li {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* 联系方式 */
+.contact {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.contact h2 {
+    font-size: 28px;
+    font-family: "楷体", serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.contact a {
+    color: #a23838;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact a:hover {
+    color: #bc7359;
+}
+
+/* 页脚 */
+footer {
+    background-color: #a23838;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    #navbar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #navbar li {
+        margin: 10px 0;
+    }
+
+    .home h1 {
+        font-size: 36px;
+    }
+
+    .home h2 {
+        font-size: 24px;
+    }
+
+    .home p {
+        font-size: 14px;
+    }
+
+    .about h2, .experience h2, .skills h2, .projects h2, .education h2, .contact h2 {
+        font-size: 24px;
+    }
+
+    .experience-item h3, .skills-section h3, .project-item h3, .education-item h3 {
+        font-size: 18px;
+    }
+
+    .experience-item ul li, .skills-section ul li, .project-item p, .education-item ul li, .contact p {
+        font-size: 14px;
+    }
+}
